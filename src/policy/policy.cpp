@@ -11,6 +11,7 @@
 #include "taskcancellation.h"
 #include "validation.h"
 #include "config.h"
+#include "script/interpreter.h"
 
 /**
  * Check transaction inputs to mitigate two potential denial-of-service attacks:

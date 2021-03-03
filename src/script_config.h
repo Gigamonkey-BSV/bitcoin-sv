@@ -1,7 +1,8 @@
 // Copyright (c) 2019 Bitcoin Association
 // Distributed under the Open BSV software license, see the accompanying file LICENSE.
 
-#pragma once
+#ifndef SV_SCRIPT_CONFIG
+#define SV_SCRIPT_CONFIG
 
 #include <cstdint>
 
@@ -22,3 +23,5 @@ public:
 protected:
     ~CScriptConfig() = default;
 };
+
+#endif
